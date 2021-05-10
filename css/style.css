@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* HEADER 
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #000000;
+    padding: 20px 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.list-menu {
+    margin: 0;
+}
+
+.list-menu a {
+    padding: 14px 16px;
+}
+
+.list-menu a:hover {
+    background-color: var(--bg_main);
+    color: rgb(255, 0, 0);
+}
